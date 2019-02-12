@@ -9,16 +9,16 @@
 -------------
 
 1. In general, why would you even want to join two (or more) tables together? This is a good time to think about the nature of relational algebra.
-    + Joing two or more tables can provide aditional information that are related by similar data or keys. Putting togther parts of a composite such as soliders in army making a platoon based on mos.
+    + Joining two or more tables can provide additional information that are related by similar data or keys. Putting together parts of a composite such as soldiers in army making a platoon based on mos.
 
 2. Describe in your own words the output from an inner join.
    + a inner join two rows with the same attributes and then filters them by the specified predicate.
 3. Describe in your own words the output from an outer join.
-   + outer joins join tables based on specfied rows like  inner joins and returns a cretesian product and that is filtered by row but also a outer join colum that doesnt all have a match.
-4. Describe in your own words the output from an cross join.
+   + outer joins join tables based on specified rows like inner joins and returns a cartesian product and that is filtered by row but also a outer join Colum that doesn’t all have a match.
+4. Describe in your own words the output from a cross join.
      + A cross join matches each row to all rows in a table. All possible combinations 
-5. A convenient nemonic for remembering the various joins is "Ohio." Why is this true?
-   +  Inner  Outter  Cross
+5. A convenient mnemonic for remembering the various joins is "Ohio." Why is this true?
+   +  Inner Outer  Cross
             + full, left, right 
 6. Give an example of a composite join.
      + filter by multiple columns
@@ -62,4 +62,4 @@ ON C.custid = O.custid
 
 WHERE O.orderdate >= '20160101';
 
-+ There were no customer orders after the day. 
++ There were no customer orders after the day.

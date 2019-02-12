@@ -8,19 +8,19 @@
 
 -------------
 1. When using INSERT, is the list of columns necessary? Why or why not?
-    + It is optional but if not it relies on the order of columns to appply the values and may insert null if not there.
+    + It is optional but if not it relies on the order of columns to apply the values and may insert null if not there.
 2. When using INSERT SELECT, do you use a subquery (derived table)? Under what circumstances do you not use a subquery?
     + yes and 
 3. What is the operand for the INSERT EXEC statement?
     + EXEC
 4. How would you use the INSERT INTO statement?
-    + BY using a select clasue and then spefciying the INTO table before the from clause.
+    + BY using a select clause and then specifying the INTO table before the from clause.
 5. What are the parameters to the BULK INSERT statement?
     + target table, source file, options 
 6. Does IDENTITY guarantee uniqueness? If not, how do you guarantee uniqueness?
     + no, you do it by define a primary key or unique constraint 
 7. How do you create a SEQUENCE object? 
-    + NEXT VALUE FOR sequence name, data type, minnimun and maximum values 
+    + NEXT VALUE FOR sequence name, data type, minimum and maximum values 
 8. How do you use a SEQUENCE object?
     + 
 9. How do you alter a SEQUENCE object?
