@@ -25,10 +25,10 @@
 5. How do you modify a history table?
     + same as regular table, INSERT, DELETE, UPDATE, MERGE.
 6. How do you delete date from a history table? Why would you want to delete data from a history table?
-    + 
+    + You don't need too. 
 7. How do you search a history table?
     + use FOR SYSTEM_TIME and a sub query 
 8. How do you query all data from both a history ﬁle and the current data?
     + use ALL after FOR SYSTEM_TIME
 9. How do you drop a temporal table?
-    +
+    + turn off system version and then use the DROP syntax like a table.
