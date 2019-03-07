@@ -1,0 +1,21 @@
+.headers on
+
+--Name: Malachi Evans
+--File: famliy.sql
+--Date: January 7, 2019
+
+
+
+
+select * from family;
+id|name|role|sex
+1|charles|parent|1
+2|bonnie|parent|0
+3|casie|child|0
+select name, sex from family where sex = 0;
+name|sex
+bonnie|0
+casie|0
+select name, role from family where role = "child";
+name|role
+casie|child
